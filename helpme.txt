@@ -1,0 +1,11 @@
+
+
+1. Introduction to Andriod Studio
+
+2. Go setting..Check appearances
+
+3. plugins.. Add Material UI and Atom icon for good UI
+
+4. Introduce About UI of Andriod Studio
+
+5. Layout vs Java Code
