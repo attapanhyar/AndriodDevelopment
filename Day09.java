@@ -5,7 +5,7 @@ public class Day09{
 		System.out.println("**********************************");
 		System.out.println("Welcome to POPEY Super Store");
 		System.out.println("Which Department you want to visit?");
-		System.out.println("1. Cosmatics \n2. Crockery \n3. Grocerry");
+		System.out.println("1. Cosmatics \n2. Crockery \n3. Grocerry \n4. Welcome \n 0 Exit");
 
 	}
 	static void cosmatics(){
@@ -37,6 +37,7 @@ public class Day09{
 		Scanner obj= new Scanner(System.in);
 		Welcome();
 		int choice;
+		do{
 		System.out.print("Enter the chioce: ");
 		choice = obj.nextInt();
 
@@ -49,8 +50,18 @@ public class Day09{
 		else if(choice ==3){
 			Grocerry();
 		}
+		else if(choice ==4){
+			Welcome();
+		}
+
+	}while(choice!=0);
 	}	
 
 
 
 }
+
+
+
+
+// do{....................................}while(condition);
