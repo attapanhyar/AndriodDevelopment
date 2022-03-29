@@ -1,0 +1,7 @@
+Inheritance
+1. Parent/Super Class
+2. Child/Derived Class
+3. Types of Inheritance
+	-Single
+	-Multilevel
+	-Hirarchical
