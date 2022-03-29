@@ -1,0 +1,15 @@
+Polymorphism 
+poly = many
+morph = shapes
+
+
+i. Method Overriding
+ii. Method Overloading
+
+
+
+Types of Errors
+
+i. Compile Time Error
+ii. Runtime Errors
+iii. Logical Errors
