@@ -1,7 +1,29 @@
-class Car{
+interface blue_print{
+	default void Start(){System.out.println("From Interface");}
+	void Accelerate();
+	void show();
+	void DoNothing();
+default  void Message(){System.out.println("Interface is Implemented");}
+}
+
+interface blue_print1 extends blue_print{
+	void New_one();
+	void Brake();
+	//void transmission();
+
+}
+
+class Car implements blue_print1{
 
 	int speed=0;
 	boolean start=false;
+	public void DoNothing(){
+
+	}
+
+	public void New_one(){
+
+	}
 
 	public void Start(){
 		this.start =true;
@@ -46,6 +68,7 @@ public class SpeedCar{
 	Meh.Brake();
 	Meh.Brake();
 	Meh.show();
+	Meh.Message();
 
 
 
