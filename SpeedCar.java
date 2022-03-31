@@ -1,5 +1,5 @@
 interface blue_print{
-	default void Start(){System.out.println("From Interface");}
+	void Start();
 	void Accelerate();
 	void show();
 	void DoNothing();
@@ -58,6 +58,7 @@ class Car implements blue_print1{
 
 public class SpeedCar{
 	public static void main(String aa[]){
+
 	Car Bal = new Car();
 	Bal.Start();
 	Bal.Accelerate();
@@ -70,6 +71,7 @@ public class SpeedCar{
 	Meh.show();
 	Meh.Message();
 
+	
 
 
 
