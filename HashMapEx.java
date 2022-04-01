@@ -13,10 +13,15 @@ public class HashMapEx{
 		//System.out.println(hm.get(1));
 		//System.out.println(hm.get(2));
 
-		for (String i: hm.values()){
 
-			System.out.println(i);
+		//hm.clear();    // To clear All the contents
+
+		for (int i: hm.keySet()){
+
+			System.out.println("Key: "+i+" Value: "+hm.get(i));
 		}
+
+
 
 
 
