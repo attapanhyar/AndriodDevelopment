@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 class Student{
 	int id;
 	String Fname;
@@ -21,8 +20,8 @@ public class Record{
 		s2.id=2;
 		s2.Fname="Shanee";
 		s2.Lname="Mangal";
-	rcd.add(s1);
 	rcd.add(s2);
+	rcd.add(s1);
 
 	for(Student i:rcd){
 		System.out.println(i.id);

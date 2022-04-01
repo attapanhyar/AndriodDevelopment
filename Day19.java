@@ -7,18 +7,21 @@ public class Day19{
 	ArrayList<String> list = new <String>ArrayList();
 	ArrayList<Integer> newList = new <Integer>ArrayList();
 
+
+	//ArrayList<Datatype> name = new <DataType>ArraList();
+
 	list.add("Ali");
 	list.add("Shahzad");
 	list.add("Boota");
 
-	//System.out.println(list.get(1));
+	//System.out.println(list.get(0));
 
-
-	/*for (int i =0;i<list.size();i++){
+/*
+	for (int i =0;i<list.size();i++){
 
 		System.out.println(list.get(i));
-	}*/
-
+	}
+*/
 	for(String name:list){
 		System.out.println(name);
 	}
@@ -39,10 +42,10 @@ public class Day19{
 	Collections.sort(list);
 	Collections.sort(newList);
 	// Removing particular index value
-	list.remove(1);
+	newList.remove(1);
 
 	// Traversing through the list
-	for(String i:list){
+	for(int i:newList){
 		System.out.println(i);
 
 	}

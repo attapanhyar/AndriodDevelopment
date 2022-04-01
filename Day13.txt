@@ -5,3 +5,7 @@ Inheritance
 	-Single
 	-Multilevel
 	-Hirarchical
+
+
+
+	-Multiple Heritance

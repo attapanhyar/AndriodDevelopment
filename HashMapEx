@@ -1,0 +1,5 @@
+//HashMap
+
+// HashMap<key><value> hm = new HashMap<key><value>();
+
+// HashMap<String><String> hm = new HashMap<String><String>();
